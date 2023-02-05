@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>BlackJack Game</title>
+</head>
+
+<body>
+    <h1> BlackJack Game</h1>
+    <p id="message-el">Want to play a round ?</p>
+    <p id="cards-el" class="score">Cards: </p>
+    <p id="sum-el" class="score">Sum: </p>
+    <audio id="sound1" src="beep-07a.mp3" preload="auto"></audio>
+
+    <audio id="sound1" src="yoursound.mp3" preload="auto"></audio>
+    <audio id="sound2" src="winning.wav" preload="auto"></audio>
+    <audio id="sound3" src="losing.wav" preload="auto" ></audio>
+
+
+    <button onclick="startGame(); playMusic(); "> START GAME</button>
+    <button onclick="drawCard(); playMusic(); ">NEW CARD</button>
+
+
+    <nav>
+        <p id="navi">Built by <a href="https://www.linkedin.com/in/kunwar-chetan-singh-0a45391b8/">Chetan Singh</a></p>
+    </nav>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<!-- 
+<audio id="sound1" src="yoursound.mp3" preload="auto"></audio>
+  <button onclick="document.getElementById('sound1').play();">Play
+  it</button> -->
