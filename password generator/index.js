@@ -6,9 +6,13 @@ let generateEl = document.getElementById("gen-button")
 let passOne= document.getElementById("pass1")
 let passTwo= document.getElementById("pass2")
 
-let gnt= false;
+let gnt = false
+
+
+
 // generateEl.addEventListener("click", 
 function generate(){
+    
     
   
    if(gnt===false){ 
@@ -32,4 +36,10 @@ function generate(){
     
 }
 
+function playTune(){
+
+    document.getElementById("audioPlay").play();
+        
+    }
+    
 
